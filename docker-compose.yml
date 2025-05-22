@@ -1,5 +1,5 @@
 services:
-  battlebitbrowser:
+  battlebit-browser:
     build:
       context: ./BattleBitBrowser
       dockerfile: Dockerfile
