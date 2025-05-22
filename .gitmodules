@@ -1,0 +1,6 @@
+[submodule "BattleBitBrowser"]
+	path = BattleBitBrowser
+	url = https://github.com/krota/BattleBitBrowser.git
+[submodule "SteamApiService"]
+	path = SteamApiService
+	url = https://github.com/krota/SteamApiService.git

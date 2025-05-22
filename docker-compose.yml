@@ -1,0 +1,16 @@
+services:
+  battlebitbrowser:
+    build:
+      context: ./BattleBitBrowser
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - steam-api
+
+  steam-api:
+    build:
+      context: ./SteamApiService
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
